@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shop Store</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Open+Sans" rel="stylesheet">
+        
+	<link rel="stylesheet" href="Shopping_List.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/icon.jpg" height="200" width="200" alt="Shop Store">
+            <h1>Shop Stop</h1>
+        </header>
+        
+        <div class="nav">
+            <nav>
+                <ol>
+                    <li class="button">Home</li>
+                    <li class="button">Items</li>
+                    <li class="button">List</li>
+                </ol>
+            </nav>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="intro col-12">
+                    <div>
+                        <center><img src="img/logo.png" height="500" width="500" alt="Shop Store"></center>
+                        <h2>List</h2>
+                        <div class="border1"></div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="helpText col-12">
+                        <p id="first">Enter item name into the input field to add items to your list.</p>
+                        <p id="second">Click the item to mark it as complete.</p>
+                        <p id="third">Click the "X" to remove the item from your list.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <input id="userInput" type="text" placeholder="Enter Item Here..." maxlength="27">
+                        <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+                    </div>
+                </div>
+                
+                <!-- Empty List -->
+                <div class="row">
+                    <div class="listItems col-12">
+                        <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript" src="Shopping_List.js"></script>
+        </div>
+        <footer>Shop Stop &copyCopyRights 2019</footer>
+    </body>
+</html>
